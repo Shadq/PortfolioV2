@@ -1,0 +1,59 @@
+.technologies__container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.technologies__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies__boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.firstRowTechnologies__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.secondRowTechnologies__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.technology {
+  border: 1px solid #cccccc;
+  border-radius: 1rem;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.technology:hover {
+  transform: scale(1.1);
+}
+
+.technology h2 {
+  font-weight: 600;
+}
+
+.technology__icon {
+  font-size: 40px;
+  color: black;
+}

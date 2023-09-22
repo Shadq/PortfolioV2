@@ -1,0 +1,52 @@
+nav {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  background-color: #fff;
+}
+
+.title {
+  color: black;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  list-style-type: none;
+}
+
+li {
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #808080;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+li:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  width: 0;
+}
+
+li:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+li .active {
+  color: black;
+}

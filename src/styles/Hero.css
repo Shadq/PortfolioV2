@@ -1,0 +1,38 @@
+.hero__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-size: 85px;
+  font-weight: 500;
+  font-weight: 800;
+}
+
+.hero__st {
+  font-style: italic;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90.78deg, #448aff 5.13%, #8116de 44.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.hero__logo {
+  height: 350px;
+  width: 350px;
+  object-fit: contain;
+}
+
+.hero__arrow {
+  font-size: 30px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.hero__arrow:hover {
+  transform: scale(1.2);
+}
